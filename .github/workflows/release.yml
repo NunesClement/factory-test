@@ -1,17 +1,16 @@
+# release action with semantic release
 name: Release
 
 on:
+  ## only manually release for now
   workflow_dispatch:
+
 
 jobs:
   release:
     name: Release to
     permissions:
       contents: write
-      packages: write
-      pull-requests: write
-      issues: write
-    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
