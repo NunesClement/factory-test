@@ -16,5 +16,8 @@
     "bugs": {
       "url": "https://github.com/saatchi-fr/localfactory-test/issues"
     },
-    "homepage": "https://github.com/saatchi-fr/localfactory-test#readme"
+    "homepage": "https://github.com/saatchi-fr/localfactory-test#readme",
+    "release": {
+      "branches": ["release"]
+    }
   }
