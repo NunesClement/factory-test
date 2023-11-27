@@ -1,9 +1,13 @@
 # release action with semantic release
-name: Release
+name: Release develop into release 
 
 on:
-  ## only manually release for now
-  workflow_dispatch:
+  push:
+    branches:
+      - release
+  pull_request:
+    paths:
+      - 'develop/**'
 
 
 jobs:
