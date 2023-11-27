@@ -1,14 +1,17 @@
-name: Release version
+name: Release
 
 on:
   workflow_dispatch:
-
 
 jobs:
   release:
     name: Release to
     permissions:
       contents: write
+      packages: write
+      pull-requests: write
+      issues: write
+    
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
