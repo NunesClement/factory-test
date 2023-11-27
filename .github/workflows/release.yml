@@ -9,7 +9,6 @@ on:
     paths:
       - 'develop/**'
 
-
 jobs:
   release:
     name: Release to
