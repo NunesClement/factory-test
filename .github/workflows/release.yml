@@ -1,23 +1,26 @@
+# release action with semantic release
 name: Release
 
 on:
+  ## only manually release for now
   workflow_dispatch:
+
 
 jobs:
   release:
+    name: Release to NPM
     permissions:
       contents: write
-      issues: write
-      packages: write
-      pull-requests: write
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - name: Use Node.js 20.x
+        uses: actions/setup-node@v4
         with:
-          node-version: 20
-      - run: npm ci
-      - run: npm run build
-      - run: npx semantic-release
-        env:
+          node-version: '20'
+      - name: Install dependencies
+        run: npm i
+      - name: Semantic Release
+        run: npx semantic-release
+        env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
