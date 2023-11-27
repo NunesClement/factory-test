@@ -1,5 +1,5 @@
 # release action with semantic release
-name: Release
+name: Release github version
 
 on:
   ## only manually release for now
