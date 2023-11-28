@@ -1,6 +1,8 @@
-name: Release version
+# release action with semantic release
+name: Release github version
 
 on:
+  ## only manually release for now
   workflow_dispatch:
 
 
