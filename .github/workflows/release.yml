@@ -25,10 +25,6 @@ jobs:
         run: npm ci
       - name: Semantic Release
         run: npx semantic-release
-        # update package.json version
-      - name: Update package.json version
-        run: |
-          npm version ${GITHUB_REF#refs/tags/}
-          git push --follow-tags origin master
+
         env: 
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
