@@ -1,3 +1,10 @@
+## [2.1.6](https://github.com/NunesClement/factory-test/compare/v2.1.5...v2.1.6) (2023-11-29)
+
+
+### Bug Fixes
+
+* exp ([2a7d8c2](https://github.com/NunesClement/factory-test/commit/2a7d8c2abb134db5f2b4ca86a16233ba66b254e7))
+
 ## [2.1.5](https://github.com/NunesClement/factory-test/compare/v2.1.4...v2.1.5) (2023-11-29)
 
 
