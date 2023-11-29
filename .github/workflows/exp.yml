@@ -1,3 +1,5 @@
+name: Experimental Releases
+
 on:
   push:
     branches:
