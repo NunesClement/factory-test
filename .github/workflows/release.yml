@@ -25,7 +25,5 @@ jobs:
         run: npm ci
       - name: Semantic Release
         run: npx semantic-release
-      - name: test
-        run: npm run release
         env: 
           GITHUB_TOKEN: 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
