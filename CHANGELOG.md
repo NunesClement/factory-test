@@ -1,3 +1,11 @@
+## [2.1.7](https://github.com/NunesClement/factory-test/compare/v2.1.6...v2.1.7) (2023-11-29)
+
+
+### Bug Fixes
+
+* package.json ([73c7238](https://github.com/NunesClement/factory-test/commit/73c7238c47c0de520b64487c6c6e86969a427cdb))
+* test ([3949846](https://github.com/NunesClement/factory-test/commit/3949846716a88ff94bfa9c185e933cd7847251e0))
+
 ## [2.1.6](https://github.com/NunesClement/factory-test/compare/v2.1.5...v2.1.6) (2023-11-29)
 
 
