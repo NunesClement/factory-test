@@ -1,3 +1,10 @@
+## [2.1.8](https://github.com/NunesClement/factory-test/compare/v2.1.7...v2.1.8) (2023-11-29)
+
+
+### Bug Fixes
+
+* test ([#14](https://github.com/NunesClement/factory-test/issues/14)) ([a80fed1](https://github.com/NunesClement/factory-test/commit/a80fed1dad0ef7329b0e85beed496ba8dace922b))
+
 ## [2.1.7](https://github.com/NunesClement/factory-test/compare/v2.1.6...v2.1.7) (2023-11-29)
 
 
