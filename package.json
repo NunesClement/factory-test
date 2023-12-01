@@ -1,31 +1,31 @@
 {
     "name": "factory-test",
-    "version": "0.0.0",
+    "version": "2.2.0",
     "description": "",
     "main": "index.js",
     "workspaces": [
-      "apps/*",
-      "packages/*"
+        "apps/*",
+        "packages/*"
     ],
     "scripts": {
-      "release": "semantic-release"
+        "release": "semantic-release"
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/NunesClement/factory-test.git"
+        "type": "git",
+        "url": "git+https://github.com/NunesClement/factory-test.git"
     },
     "keywords": [],
     "author": "",
     "private": true,
     "bugs": {
-      "url": "https://github.com/NunesClement/factory-test/issues"
+        "url": "https://github.com/NunesClement/factory-test/issues"
     },
     "homepage": "https://github.com/NunesClement/factory-test#readme",
     "devDependencies": {
-      "semantic-release": "22.0.8",
+        "semantic-release": "22.0.8",
         "@semantic-release/git": " 10.0.1",
         "@semantic-release/github": " 9.2.3",
         "@semantic-release/changelog": "6.0.3",
         "@changesets/cli": "2.27.1"
     }
-  }
+}
